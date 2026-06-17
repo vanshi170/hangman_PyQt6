@@ -44,6 +44,7 @@ The application follows a strictly decoupled architecture, separating the core g
 
 The project is structured logically by domain:
 
+```text
 .
 ├── main.py                   # Application entry point; initializes Qt and error handling
 ├── logging_config.py         # Configures rotating file loggers and console outputs
@@ -81,6 +82,7 @@ The project is structured logically by domain:
         ├── hangman_canvas.py # Procedural QPainter canvas for the gallows
         ├── toast.py          # Non-blocking notification popups
         └── confetti.py       # Victory animation renderer
+```
 
 ---
 
